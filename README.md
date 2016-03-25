@@ -16,5 +16,5 @@ This image is based on [evild/alpine-base](https://hub.docker.com/r/evild/alpine
 ## How to use this image
 
 ```
-docker run -name alpine-influxdb -p 8083:8083 -p 8086:8086 evild/alpine-influxdb:0.11
+docker run --name alpine-influxdb -p 8083:8083 -p 8086:8086 evild/alpine-influxdb:0.11
 ```
