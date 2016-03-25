@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv sh
+
+exec influxd -config=/usr/share/influxdb/config.toml
